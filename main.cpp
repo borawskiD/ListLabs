@@ -253,3 +253,180 @@ int main()
     } while (!timeToEnd);
     return 0;
 }
+
+/*
+ * Dominik Borawski A1 215IC
+ * Lista jednokierunkowa
+ */
+
+/*
+ * Przykładowy output
+ */
+
+/*
+Current look of the list:
+List is empty
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 1
+Enter element to push: 4
+
+Current look of the list:
+4
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 2
+Enter element to push: 2
+
+Current look of the list:
+4 2
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 2
+Enter element to push: 0
+
+Current look of the list:
+4 2 0
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 1
+Enter element to push: 3
+
+Current look of the list:
+3 4 2 0
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 3
+Enter index:2
+Enter element to push: 1
+
+Current look of the list:
+3 4 1 2 0
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 4
+
+Current look of the list:
+4 1 2 0
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 5
+
+Current look of the list:
+4 1 2
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 6
+Enter index:1
+
+Current look of the list:
+4 1
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 7
+
+4 1
+
+Current look of the list:
+4 1
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 8
+Size of the current list: 2
+
+Current look of the list:
+4 1
+
+1. Push an item to the head of the list
+2. Push an item to the tail of the list.
+3. Push an item to the specific index.
+4. Pop an item from the head of the list.
+5. Pop an item from the tail of the list.
+6. Pop an item from the specific index of the list.
+7. Display list.
+8. Display the size of the list
+0. Exit
+Choose option: 0
+
+Process finished with exit code 0
+
+ */
